@@ -1,0 +1,742 @@
+logfile:/ubc/cs/project/arrow/hutter/altuning/matlab/SMAC_release_1.0/out/UNTITLED_EXPERIMENTS/scenario-Saps-single-QWH-instance-rfnSub10pars0.83333_10RFo-logM1eiI2ei0nLS10rR10000iS7ac0rF0.5cs2/l-r0.txt
+run folder:/ubc/cs/project/arrow/hutter/altuning/matlab/SMAC_release_1.0/out/UNTITLED_EXPERIMENTS/scenario-Saps-single-QWH-instance-rfnSub10pars0.83333_10RFo-logM1eiI2ei0nLS10rR10000iS7ac0rF0.5cs2/run0/
+
+********************************************
+SMBO started at 16-Sep-2011 13:59:00
+********************************************
+Call in Matlab: smbo_runner(0, 'model', 'rf', 'validN', 10, 'scenario_file', 'example_saps/scenario-Saps-single-QWH-instance.txt')
+
+Command line call: smbo_runner 0 model rf validN 10 scenario_file example_saps/scenario-Saps-single-QWH-instance.txt
+
+All options: 'profile', 0, 'reuseRun', 0, 'adaptive_capping', 0, 'cap_slack', 2, 'maxn', 2000, 'initType', 'random_lhd', 'nInit', -1, 'modelType', 'rf', 'overallobj', 'mean', 'intens_schedule', 7, 'ei_inc', 2, 'expImpCriterion', 0, 'frac_rawruntime', 0.5, 'timeout_incl_learning', 1, 'method', 'al', 'min_variance', 1e-14, 'remove_constant_Theta', 1, 'ignore_conditionals', 0, 'subModelType', 'GP-hybridiso', 'strategyForMissing', 0, 'logModel', 1, 'numIterations', 100000, 'totalNumRunLimit', 100000, 'runtimeLimit', Inf, 'opt', 0, 'nSub', 10, 'kappa_max', 5, 'frac_for_refit', 0, 'storeDataInLeaves', 0, 'orig_rf', 1, 'pca', 7, 'splitMinMax', 10, 'Splitmin_init', 10, 'split_ratio_init', 0.83333, 'Splitmincens_init', 5, 'paramsLowerBound', -3, 'paramsUpperBound', 3, 'hyp_opt_obj', 'mll', 'hyp_opt_algorithm', 'minFunc', 'crossVal_ll_k', 2, 'hyp_opt_numTries', 1, 'trainSubSize', 300, 'ppSize', 300, 'schmeeHahn', -2, 'N_s', 100, 'numLSbest', 10, 'numRandomInEiOpt', 10000, 'onlyOneChallenger', 0, 'hyp_opt_steps', 50, 'evalAllIncumbents', 0, 'evalTimesIncumbents', 0, 'just_valid', 0, 'valid', 0, 'online_crossval', 0, 'matrix_validation', 0, 'writeToScreen', 1, 'experiment_name', '', 'numRunsToSaveDetails', 2, 'saving', 1, 'workspace_savedir', 'out/UNTITLED_EXPERIMENTS/scenario-Saps-single-QWH-instance-rfnSub10pars0.83333_10RFo-logM1eiI2ei0nLS10rR10000iS7ac0rF0.5cs2/run0/', 'seed', 0, 'offline_validation', 1, 'cutoff_penalty_factor', 1, 'val_filename', 'out/UNTITLED_EXPERIMENTS/scenario-Saps-single-QWH-instance-rfnSub10pars0.83333_10RFo-logM1eiI2ei0nLS10rR10000iS7ac0rF0.5cs2/overallobjmean-time5-0.val', 'valall_filename', 'out/UNTITLED_EXPERIMENTS/scenario-Saps-single-QWH-instance-rfnSub10pars0.83333_10RFo-logM1eiI2ei0nLS10rR10000iS7ac0rF0.5cs2/overallobjmean-time5-all0.val', 'workspace_filenameprefix', 'out/UNTITLED_EXPERIMENTS/scenario-Saps-single-QWH-instance-rfnSub10pars0.83333_10RFo-logM1eiI2ei0nLS10rR10000iS7ac0rF0.5cs2/run0/s'
+
+Run 0
+Incumbent at iteration 0: 1 with 10000000000000.000000 +/- 0.000000 and 0 runs. Iteration time: 0.000000, total overhead time: 0.000000, total raw algo runtime: 0.000000, total runs: 0
+0.000000, 10000000000000.000000, 0.000000, 1, 0.000000, alpha=1.1890000000000001, ps=0.1000000000000000, rho=0.5000000000000000, wp=0.0300000000000000
+Doing one run for the default ...
+Challenger 1 --- EI configuration)
+Iteration 0: running config 1 on instance 1 with seed 895547936 and captime 5
+Iteration 0: doing 1 runs: took 0.24CPU s, wall clock time: 1.0655s
+Incumbent at iteration 0: 1 with -0.619789 +/- -1.000000 and 1 runs. Iteration time: 0.000000, total overhead time: 0.000000, total raw algo runtime: 0.240000, total runs: 1
+0.240000, -0.619789, -1.000000, 1, 0.000000, alpha=1.1890000000000001, ps=0.1000000000000000, rho=0.5000000000000000, wp=0.0300000000000000
+Max Java memory: 2093809664
+Total Java memory: 116928512
+Free Java memory: 56431792
+Discarding 4 constant inputs of 4 in total.
+Discarding 1 constant inputs of 1 in total.
+Learning model with 1 data points of dimension 5 ... 
+Iteration 1: learning rf model using 1 data points (1 new)... took 0.005323s.
+Optimizing EI at valdata.iteration 1 ...
+Compute negEI for all conf. seen at valdata.iteration 1: took 0.001489 s
+LS 1 took 0.001768 seconds and yielded neg log EI 17.607978
+Optimization of EI at valdata.iteration 1: took 0.026956 s
+f_min_samples = -0.619789
+Rank of mean of top EI: 1 (-0.619789 +/- 0.000000); config with min. pred mean: -0.619789 +/- 0.000000, EI=-17.607978
+Challenger 1: predicted -0.619789 +/- 0.000000, expected improvement -17.607978
+Performing runs for at least 1.000000 seconds (fraction options.frac_rawruntime=0.500000 of time in this iteration)
+Challenger 1 --- EI configuration)
+Performing up to 1 run(s) for challenger 2 up to a total bound Inf on 1 instances.
+Iteration 1: running config 2 on instance 1 with seed 895547936 and captime 5
+Iteration 1: doing 1 runs: took 0.14CPU s, wall clock time: 0.9619s
+Based on the runs on their 1 shared instances, challenger 2 has lower bound 0.140000 and incumbent 1 has obj 0.240000.
+Challenger 2 has all the 1 runs of the incumbent 1 and has better objective (0.140000 as opposed to 0.240000) -> making it new incumbent.
+Incumbent at iteration 1: 2 with -0.853872 +/- -1.000000 and 1 runs. Iteration time: 0.032279, total overhead time: 0.272279, total raw algo runtime: 0.380000, total runs: 2
+0.652279, -0.853872, -1.000000, 2, 0.272279, alpha=1.1696306759539157, ps=0.1556542579271647, rho=0.6770345949501942, wp=0.0427420039174529
+Challenger 2 --- random configuration)
+Performing up to 1 run(s) for challenger 3 up to a total bound Inf on 1 instances.
+Iteration 1: running config 3 on instance 1 with seed 895547936 and captime 5
+Iteration 1: doing 1 runs: took 0.12CPU s, wall clock time: 0.94452s
+Based on the runs on their 1 shared instances, challenger 3 has lower bound 0.120000 and incumbent 2 has obj 0.140000.
+Challenger 3 has all the 1 runs of the incumbent 2 and has better objective (0.120000 as opposed to 0.140000) -> making it new incumbent.
+Incumbent at iteration 1: 3 with -0.920819 +/- -1.000000 and 1 runs. Iteration time: 0.032279, total overhead time: 0.272279, total raw algo runtime: 0.500000, total runs: 3
+0.772279, -0.920819, -1.000000, 3, 0.272279, alpha=1.1661601835951843, ps=0.1725930126635163, rho=0.7650042263857895, wp=0.0462938994026470
+So far, spent 0.260000 seconds of raw target algorithm time in this iteration. Running up to 1.000000 seconds
+Challenger 3 --- EI configuration)
+Performing up to 1 run(s) for challenger 4 up to a total bound Inf on 1 instances.
+Iteration 1: running config 4 on instance 1 with seed 895547936 and captime 5
+Iteration 1: doing 1 runs: took 0.05CPU s, wall clock time: 0.86686s
+Based on the runs on their 1 shared instances, challenger 4 has lower bound 0.050000 and incumbent 3 has obj 0.120000.
+Challenger 4 has all the 1 runs of the incumbent 3 and has better objective (0.050000 as opposed to 0.120000) -> making it new incumbent.
+Incumbent at iteration 1: 4 with -1.301030 +/- -1.000000 and 1 runs. Iteration time: 0.032279, total overhead time: 0.272279, total raw algo runtime: 0.600000, total runs: 4
+0.872279, -1.301030, -1.000000, 4, 0.272279, alpha=1.1010454588815557, ps=0.1627452570943282, rho=0.6428227651446070, wp=0.0024219054021993
+So far, spent 0.360000 seconds of raw target algorithm time in this iteration. Running up to 1.000000 seconds
+Challenger 4 --- random configuration)
+Performing up to 1 run(s) for challenger 5 up to a total bound Inf on 1 instances.
+Iteration 1: running config 5 on instance 1 with seed 895547936 and captime 5
+Iteration 1: doing 1 runs: took 0.03CPU s, wall clock time: 0.88498s
+Based on the runs on their 1 shared instances, challenger 5 has lower bound 0.030000 and incumbent 4 has obj 0.050000.
+Challenger 5 has all the 1 runs of the incumbent 4 and has better objective (0.030000 as opposed to 0.050000) -> making it new incumbent.
+Incumbent at iteration 1: 5 with -1.522879 +/- -1.000000 and 1 runs. Iteration time: 0.032279, total overhead time: 0.272279, total raw algo runtime: 0.700000, total runs: 5
+0.972279, -1.522879, -1.000000, 5, 0.272279, alpha=1.1606280634659216, ps=0.0557553860058850, rho=0.0240453878134033, wp=0.0211754067118551
+So far, spent 0.460000 seconds of raw target algorithm time in this iteration. Running up to 1.000000 seconds
+Challenger 5 --- EI configuration)
+Performing up to 1 run(s) for challenger 6 up to a total bound Inf on 1 instances.
+Iteration 1: running config 6 on instance 1 with seed 895547936 and captime 5
+Iteration 1: doing 1 runs: took 0.52CPU s, wall clock time: 1.3962s
+Based on the runs on their 1 shared instances, challenger 6 has lower bound 0.520000 and incumbent 5 has obj 0.030000.
+Based on 1 runs, challenger 6 is worse (lb on obj 0.520000) than incumbent 5 (obj 0.030000) -> stopping its evaluation.
+Incumbent at iteration 1: 5 with -1.522879 +/- -1.000000 and 1 runs. Iteration time: 0.032279, total overhead time: 0.272279, total raw algo runtime: 1.220000, total runs: 6
+1.492279, -1.522879, -1.000000, 5, 0.272279, alpha=1.1606280634659216, ps=0.0557553860058850, rho=0.0240453878134033, wp=0.0211754067118551
+So far, spent 0.980000 seconds of raw target algorithm time in this iteration. Running up to 1.000000 seconds
+Challenger 6 --- random configuration)
+Performing up to 1 run(s) for challenger 7 up to a total bound Inf on 1 instances.
+Iteration 1: running config 7 on instance 1 with seed 895547936 and captime 5
+Iteration 1: doing 1 runs: took 4.85CPU s, wall clock time: 5.8144s
+Based on the runs on their 1 shared instances, challenger 7 has lower bound 4.850000 and incumbent 5 has obj 0.030000.
+Based on 1 runs, challenger 7 is worse (lb on obj 4.850000) than incumbent 5 (obj 0.030000) -> stopping its evaluation.
+Incumbent at iteration 1: 5 with -1.522879 +/- -1.000000 and 1 runs. Iteration time: 0.032279, total overhead time: 0.272279, total raw algo runtime: 6.070000, total runs: 7
+6.342279, -1.522879, -1.000000, 5, 0.272279, alpha=1.1606280634659216, ps=0.0557553860058850, rho=0.0240453878134033, wp=0.0211754067118551
+Outputting detailed information into files at iteration 1
+Max Java memory: 2093809664
+Total Java memory: 116928512
+Free Java memory: 54113056
+Discarding 0 constant inputs of 4 in total.
+Discarding 1 constant inputs of 1 in total.
+Learning model with 7 data points of dimension 5 ... 
+Model has no censored data - using normal random forest
+Iteration 2: learning rf model using 7 data points (6 new)... took 0.060614s.
+Optimizing EI at valdata.iteration 2 ...
+Compute negEI for all conf. seen at valdata.iteration 2: took 0.015964 s
+LS 1 took 0.008896 seconds and yielded neg log EI 13.344986
+LS 2 took 0.011188 seconds and yielded neg log EI 13.344986
+LS 3 took 0.004981 seconds and yielded neg log EI 13.344986
+LS 4 took 0.004704 seconds and yielded neg log EI 13.344986
+LS 5 took 0.005603 seconds and yielded neg log EI 13.344986
+LS 6 took 0.005993 seconds and yielded neg log EI 13.344986
+LS 7 took 0.011771 seconds and yielded neg log EI 13.344986
+Optimization of EI at valdata.iteration 2: took 0.150586 s
+f_min_samples = -1.522879
+Rank of mean of top EI: 1 (-0.192239 +/- 0.386435); config with min. pred mean: -0.192239 +/- 0.386435, EI=-13.344986
+Challenger 1: predicted -0.192239 +/- 0.386435, expected improvement -13.344986
+Challenger 2: predicted -0.192239 +/- 0.386435, expected improvement -13.344986
+Challenger 3: predicted -0.192239 +/- 0.386435, expected improvement -13.344986
+Challenger 4: predicted -0.192239 +/- 0.386435, expected improvement -13.344986
+Challenger 5: predicted -0.192239 +/- 0.386435, expected improvement -13.344986
+Challenger 6: predicted -0.192239 +/- 0.386435, expected improvement -13.344986
+Challenger 7: predicted -0.192239 +/- 0.386435, expected improvement -13.344986
+Performing runs for at least 1.000000 seconds (fraction options.frac_rawruntime=0.500000 of time in this iteration)
+Challenger 1 --- EI configuration)
+Performing up to 1 run(s) for challenger 8 up to a total bound Inf on 1 instances.
+Iteration 2: running config 8 on instance 1 with seed 895547936 and captime 5
+Iteration 2: doing 1 runs: took 0.04CPU s, wall clock time: 0.89856s
+Based on the runs on their 1 shared instances, challenger 8 has lower bound 0.040000 and incumbent 5 has obj 0.030000.
+Based on 1 runs, challenger 8 is worse (lb on obj 0.040000) than incumbent 5 (obj 0.030000) -> stopping its evaluation.
+Incumbent at iteration 2: 5 with -1.522879 +/- -1.000000 and 1 runs. Iteration time: 0.211200, total overhead time: 0.483479, total raw algo runtime: 6.170000, total runs: 8
+6.653479, -1.522879, -1.000000, 5, 0.483479, alpha=1.1606280634659216, ps=0.0557553860058850, rho=0.0240453878134033, wp=0.0211754067118551
+Challenger 2 --- random configuration)
+Performing up to 1 run(s) for challenger 9 up to a total bound Inf on 1 instances.
+Iteration 2: running config 9 on instance 1 with seed 895547936 and captime 5
+Iteration 2: doing 1 runs: took 0.06CPU s, wall clock time: 1.0886s
+Based on the runs on their 1 shared instances, challenger 9 has lower bound 0.060000 and incumbent 5 has obj 0.030000.
+Based on 1 runs, challenger 9 is worse (lb on obj 0.060000) than incumbent 5 (obj 0.030000) -> stopping its evaluation.
+Incumbent at iteration 2: 5 with -1.522879 +/- -1.000000 and 1 runs. Iteration time: 0.211200, total overhead time: 0.483479, total raw algo runtime: 6.270000, total runs: 9
+6.753479, -1.522879, -1.000000, 5, 0.483479, alpha=1.1606280634659216, ps=0.0557553860058850, rho=0.0240453878134033, wp=0.0211754067118551
+So far, spent 0.200000 seconds of raw target algorithm time in this iteration. Running up to 1.000000 seconds
+Challenger 3 --- EI configuration)
+Performing up to 1 run(s) for challenger 10 up to a total bound Inf on 1 instances.
+Iteration 2: running config 10 on instance 1 with seed 895547936 and captime 5
+Iteration 2: doing 1 runs: took 0.06CPU s, wall clock time: 0.96602s
+Based on the runs on their 1 shared instances, challenger 10 has lower bound 0.060000 and incumbent 5 has obj 0.030000.
+Based on 1 runs, challenger 10 is worse (lb on obj 0.060000) than incumbent 5 (obj 0.030000) -> stopping its evaluation.
+Incumbent at iteration 2: 5 with -1.522879 +/- -1.000000 and 1 runs. Iteration time: 0.211200, total overhead time: 0.483479, total raw algo runtime: 6.370000, total runs: 10
+6.853479, -1.522879, -1.000000, 5, 0.483479, alpha=1.1606280634659216, ps=0.0557553860058850, rho=0.0240453878134033, wp=0.0211754067118551
+So far, spent 0.300000 seconds of raw target algorithm time in this iteration. Running up to 1.000000 seconds
+Challenger 4 --- random configuration)
+Performing up to 1 run(s) for challenger 11 up to a total bound Inf on 1 instances.
+Iteration 2: running config 11 on instance 1 with seed 895547936 and captime 5
+Iteration 2: doing 1 runs: took 0.18CPU s, wall clock time: 1.0616s
+Based on the runs on their 1 shared instances, challenger 11 has lower bound 0.180000 and incumbent 5 has obj 0.030000.
+Based on 1 runs, challenger 11 is worse (lb on obj 0.180000) than incumbent 5 (obj 0.030000) -> stopping its evaluation.
+Incumbent at iteration 2: 5 with -1.522879 +/- -1.000000 and 1 runs. Iteration time: 0.211200, total overhead time: 0.483479, total raw algo runtime: 6.550000, total runs: 11
+7.033479, -1.522879, -1.000000, 5, 0.483479, alpha=1.1606280634659216, ps=0.0557553860058850, rho=0.0240453878134033, wp=0.0211754067118551
+So far, spent 0.480000 seconds of raw target algorithm time in this iteration. Running up to 1.000000 seconds
+Challenger 5 --- EI configuration)
+Performing up to 1 run(s) for challenger 12 up to a total bound Inf on 1 instances.
+Iteration 2: running config 12 on instance 1 with seed 895547936 and captime 5
+Iteration 2: doing 1 runs: took 0.76CPU s, wall clock time: 1.7228s
+Based on the runs on their 1 shared instances, challenger 12 has lower bound 0.760000 and incumbent 5 has obj 0.030000.
+Based on 1 runs, challenger 12 is worse (lb on obj 0.760000) than incumbent 5 (obj 0.030000) -> stopping its evaluation.
+Incumbent at iteration 2: 5 with -1.522879 +/- -1.000000 and 1 runs. Iteration time: 0.211200, total overhead time: 0.483479, total raw algo runtime: 7.310000, total runs: 12
+7.793479, -1.522879, -1.000000, 5, 0.483479, alpha=1.1606280634659216, ps=0.0557553860058850, rho=0.0240453878134033, wp=0.0211754067118551
+Outputting detailed information into files at iteration 2
+Max Java memory: 2093809664
+Total Java memory: 116928512
+Free Java memory: 51823288
+Discarding 0 constant inputs of 4 in total.
+Discarding 1 constant inputs of 1 in total.
+Learning model with 12 data points of dimension 5 ... 
+Model has no censored data - using normal random forest
+Iteration 3: learning rf model using 12 data points (5 new)... took 0.024046s.
+Optimizing EI at valdata.iteration 3 ...
+Compute negEI for all conf. seen at valdata.iteration 3: took 0.002549 s
+LS 1 took 0.004854 seconds and yielded neg log EI 5.942736
+LS 2 took 0.009855 seconds and yielded neg log EI 5.778663
+LS 3 took 0.010888 seconds and yielded neg log EI 5.778663
+LS 4 took 0.009665 seconds and yielded neg log EI 5.778663
+LS 5 took 0.007111 seconds and yielded neg log EI 5.763624
+LS 6 took 0.009470 seconds and yielded neg log EI 5.763624
+LS 7 took 0.007031 seconds and yielded neg log EI 6.462301
+LS 8 took 0.007070 seconds and yielded neg log EI 5.778663
+LS 9 took 0.015793 seconds and yielded neg log EI 5.865840
+LS 10 took 0.011825 seconds and yielded neg log EI 5.916697
+Optimization of EI at valdata.iteration 3: took 0.155044 s
+f_min_samples = -1.522879
+Rank of mean of top EI: 3965 (-0.812812 +/- 0.824726); config with min. pred mean: -1.144353 +/- 0.302435, EI=-5.763624
+Challenger 1: predicted -0.812812 +/- 0.824726, expected improvement -5.763624
+Challenger 2: predicted -0.812812 +/- 0.824726, expected improvement -5.763624
+Challenger 3: predicted -0.812812 +/- 0.824726, expected improvement -5.763624
+Challenger 4: predicted -0.812812 +/- 0.824726, expected improvement -5.763624
+Challenger 5: predicted -0.812812 +/- 0.824726, expected improvement -5.763624
+Challenger 6: predicted -0.812812 +/- 0.824726, expected improvement -5.763624
+Challenger 7: predicted -0.812812 +/- 0.824726, expected improvement -5.763624
+Challenger 8: predicted -0.812812 +/- 0.824726, expected improvement -5.763624
+Challenger 9: predicted -0.812812 +/- 0.824726, expected improvement -5.763624
+Challenger 10: predicted -0.812812 +/- 0.824726, expected improvement -5.763624
+Performing runs for at least 1.000000 seconds (fraction options.frac_rawruntime=0.500000 of time in this iteration)
+Challenger 1 --- EI configuration)
+Performing up to 1 run(s) for challenger 13 up to a total bound Inf on 1 instances.
+Iteration 3: running config 13 on instance 1 with seed 895547936 and captime 5
+Iteration 3: doing 1 runs: took 0.42CPU s, wall clock time: 1.2333s
+Based on the runs on their 1 shared instances, challenger 13 has lower bound 0.420000 and incumbent 5 has obj 0.030000.
+Based on 1 runs, challenger 13 is worse (lb on obj 0.420000) than incumbent 5 (obj 0.030000) -> stopping its evaluation.
+Incumbent at iteration 3: 5 with -1.522879 +/- -1.000000 and 1 runs. Iteration time: 0.179090, total overhead time: 0.662569, total raw algo runtime: 7.730000, total runs: 13
+8.392569, -1.522879, -1.000000, 5, 0.662569, alpha=1.1606280634659216, ps=0.0557553860058850, rho=0.0240453878134033, wp=0.0211754067118551
+Challenger 2 --- random configuration)
+Performing up to 1 run(s) for challenger 14 up to a total bound Inf on 1 instances.
+Iteration 3: running config 14 on instance 1 with seed 895547936 and captime 5
+Iteration 3: doing 1 runs: took 0.04CPU s, wall clock time: 0.79348s
+Based on the runs on their 1 shared instances, challenger 14 has lower bound 0.040000 and incumbent 5 has obj 0.030000.
+Based on 1 runs, challenger 14 is worse (lb on obj 0.040000) than incumbent 5 (obj 0.030000) -> stopping its evaluation.
+Incumbent at iteration 3: 5 with -1.522879 +/- -1.000000 and 1 runs. Iteration time: 0.179090, total overhead time: 0.662569, total raw algo runtime: 7.830000, total runs: 14
+8.492569, -1.522879, -1.000000, 5, 0.662569, alpha=1.1606280634659216, ps=0.0557553860058850, rho=0.0240453878134033, wp=0.0211754067118551
+So far, spent 0.520000 seconds of raw target algorithm time in this iteration. Running up to 1.000000 seconds
+Challenger 3 --- EI configuration)
+Performing up to 1 run(s) for challenger 15 up to a total bound Inf on 1 instances.
+Iteration 3: running config 15 on instance 1 with seed 895547936 and captime 5
+Iteration 3: doing 1 runs: took 0.02CPU s, wall clock time: 0.76168s
+Based on the runs on their 1 shared instances, challenger 15 has lower bound 0.020000 and incumbent 5 has obj 0.030000.
+Challenger 15 has all the 1 runs of the incumbent 5 and has better objective (0.020000 as opposed to 0.030000) -> making it new incumbent.
+Incumbent at iteration 3: 15 with -1.698970 +/- -1.000000 and 1 runs. Iteration time: 0.179090, total overhead time: 0.662569, total raw algo runtime: 7.930000, total runs: 15
+8.592569, -1.698970, -1.000000, 15, 0.662569, alpha=1.1540000072426038, ps=0.1687449062806379, rho=0.2254564962297173, wp=0.0163068421901426
+So far, spent 0.620000 seconds of raw target algorithm time in this iteration. Running up to 1.000000 seconds
+Challenger 4 --- random configuration)
+Performing up to 1 run(s) for challenger 16 up to a total bound Inf on 1 instances.
+Iteration 3: running config 16 on instance 1 with seed 895547936 and captime 5
+Iteration 3: doing 1 runs: took 0.05CPU s, wall clock time: 0.82388s
+Based on the runs on their 1 shared instances, challenger 16 has lower bound 0.050000 and incumbent 15 has obj 0.020000.
+Based on 1 runs, challenger 16 is worse (lb on obj 0.050000) than incumbent 15 (obj 0.020000) -> stopping its evaluation.
+Incumbent at iteration 3: 15 with -1.698970 +/- -1.000000 and 1 runs. Iteration time: 0.179090, total overhead time: 0.662569, total raw algo runtime: 8.030000, total runs: 16
+8.692569, -1.698970, -1.000000, 15, 0.662569, alpha=1.1540000072426038, ps=0.1687449062806379, rho=0.2254564962297173, wp=0.0163068421901426
+So far, spent 0.720000 seconds of raw target algorithm time in this iteration. Running up to 1.000000 seconds
+Challenger 5 --- EI configuration)
+Performing up to 1 run(s) for challenger 17 up to a total bound Inf on 1 instances.
+Iteration 3: running config 17 on instance 1 with seed 895547936 and captime 5
+Iteration 3: doing 1 runs: took 0.44CPU s, wall clock time: 1.1826s
+Based on the runs on their 1 shared instances, challenger 17 has lower bound 0.440000 and incumbent 15 has obj 0.020000.
+Based on 1 runs, challenger 17 is worse (lb on obj 0.440000) than incumbent 15 (obj 0.020000) -> stopping its evaluation.
+Incumbent at iteration 3: 15 with -1.698970 +/- -1.000000 and 1 runs. Iteration time: 0.179090, total overhead time: 0.662569, total raw algo runtime: 8.470000, total runs: 17
+9.132569, -1.698970, -1.000000, 15, 0.662569, alpha=1.1540000072426038, ps=0.1687449062806379, rho=0.2254564962297173, wp=0.0163068421901426
+Max Java memory: 2093809664
+Total Java memory: 116928512
+Free Java memory: 49963072
+Discarding 0 constant inputs of 4 in total.
+Discarding 1 constant inputs of 1 in total.
+Learning model with 17 data points of dimension 5 ... 
+Model has no censored data - using normal random forest
+Iteration 4: learning rf model using 17 data points (5 new)... took 0.02983s.
+Optimizing EI at valdata.iteration 4 ...
+Compute negEI for all conf. seen at valdata.iteration 4: took 0.002565 s
+LS 1 took 0.007354 seconds and yielded neg log EI 6.665230
+LS 2 took 0.010351 seconds and yielded neg log EI 6.748023
+LS 3 took 0.007455 seconds and yielded neg log EI 7.026469
+LS 4 took 0.007589 seconds and yielded neg log EI 6.675061
+LS 5 took 0.009961 seconds and yielded neg log EI 7.186825
+LS 6 took 0.009631 seconds and yielded neg log EI 6.709579
+LS 7 took 0.009564 seconds and yielded neg log EI 6.540533
+LS 8 took 0.007139 seconds and yielded neg log EI 6.302915
+LS 9 took 0.007098 seconds and yielded neg log EI 6.771479
+LS 10 took 0.014635 seconds and yielded neg log EI 6.540533
+Optimization of EI at valdata.iteration 4: took 0.152844 s
+f_min_samples = -1.698970
+Rank of mean of top EI: 830 (-1.177861 +/- 0.673965); config with min. pred mean: -1.494864 +/- 0.160401, EI=-6.131694
+Challenger 1: predicted -1.177861 +/- 0.673965, expected improvement -6.131694
+Challenger 2: predicted -1.177861 +/- 0.673965, expected improvement -6.131694
+Challenger 3: predicted -1.177861 +/- 0.673965, expected improvement -6.131694
+Challenger 4: predicted -1.177861 +/- 0.673965, expected improvement -6.131694
+Challenger 5: predicted -1.135264 +/- 0.650420, expected improvement -6.302915
+Challenger 6: predicted -1.135264 +/- 0.650420, expected improvement -6.302915
+Challenger 7: predicted -1.135264 +/- 0.650420, expected improvement -6.302915
+Challenger 8: predicted -1.135264 +/- 0.650420, expected improvement -6.302915
+Challenger 9: predicted -1.135264 +/- 0.650420, expected improvement -6.302915
+Challenger 10: predicted -1.331422 +/- 0.472309, expected improvement -6.347886
+Performing runs for at least 1.000000 seconds (fraction options.frac_rawruntime=0.500000 of time in this iteration)
+Challenger 1 --- EI configuration)
+Performing up to 1 run(s) for challenger 18 up to a total bound Inf on 1 instances.
+Iteration 4: running config 18 on instance 1 with seed 895547936 and captime 5
+Iteration 4: doing 1 runs: took 0.09CPU s, wall clock time: 0.86382s
+Based on the runs on their 1 shared instances, challenger 18 has lower bound 0.090000 and incumbent 15 has obj 0.020000.
+Based on 1 runs, challenger 18 is worse (lb on obj 0.090000) than incumbent 15 (obj 0.020000) -> stopping its evaluation.
+Incumbent at iteration 4: 15 with -1.698970 +/- -1.000000 and 1 runs. Iteration time: 0.182674, total overhead time: 0.845243, total raw algo runtime: 8.570000, total runs: 18
+9.415243, -1.698970, -1.000000, 15, 0.845243, alpha=1.1540000072426038, ps=0.1687449062806379, rho=0.2254564962297173, wp=0.0163068421901426
+Challenger 2 --- random configuration)
+Performing up to 1 run(s) for challenger 19 up to a total bound Inf on 1 instances.
+Iteration 4: running config 19 on instance 1 with seed 895547936 and captime 5
+Iteration 4: doing 1 runs: took 0.07CPU s, wall clock time: 0.83185s
+Based on the runs on their 1 shared instances, challenger 19 has lower bound 0.070000 and incumbent 15 has obj 0.020000.
+Based on 1 runs, challenger 19 is worse (lb on obj 0.070000) than incumbent 15 (obj 0.020000) -> stopping its evaluation.
+Incumbent at iteration 4: 15 with -1.698970 +/- -1.000000 and 1 runs. Iteration time: 0.182674, total overhead time: 0.845243, total raw algo runtime: 8.670000, total runs: 19
+9.515243, -1.698970, -1.000000, 15, 0.845243, alpha=1.1540000072426038, ps=0.1687449062806379, rho=0.2254564962297173, wp=0.0163068421901426
+So far, spent 0.200000 seconds of raw target algorithm time in this iteration. Running up to 1.000000 seconds
+Challenger 3 --- EI configuration)
+Performing up to 1 run(s) for challenger 20 up to a total bound Inf on 1 instances.
+Iteration 4: running config 20 on instance 1 with seed 895547936 and captime 5
+Iteration 4: doing 1 runs: took 0.06CPU s, wall clock time: 0.81574s
+Based on the runs on their 1 shared instances, challenger 20 has lower bound 0.060000 and incumbent 15 has obj 0.020000.
+Based on 1 runs, challenger 20 is worse (lb on obj 0.060000) than incumbent 15 (obj 0.020000) -> stopping its evaluation.
+Incumbent at iteration 4: 15 with -1.698970 +/- -1.000000 and 1 runs. Iteration time: 0.182674, total overhead time: 0.845243, total raw algo runtime: 8.770000, total runs: 20
+9.615243, -1.698970, -1.000000, 15, 0.845243, alpha=1.1540000072426038, ps=0.1687449062806379, rho=0.2254564962297173, wp=0.0163068421901426
+So far, spent 0.300000 seconds of raw target algorithm time in this iteration. Running up to 1.000000 seconds
+Challenger 4 --- random configuration)
+Performing up to 1 run(s) for challenger 21 up to a total bound Inf on 1 instances.
+Iteration 4: running config 21 on instance 1 with seed 895547936 and captime 5
+Iteration 4: doing 1 runs: took 5CPU s, wall clock time: 5.7744s
+Based on the runs on their 1 shared instances, challenger 21 has lower bound 5.010000 and incumbent 15 has obj 0.020000.
+Based on 1 runs, challenger 21 is worse (lb on obj 5.010000) than incumbent 15 (obj 0.020000) -> stopping its evaluation.
+Incumbent at iteration 4: 15 with -1.698970 +/- -1.000000 and 1 runs. Iteration time: 0.182674, total overhead time: 0.845243, total raw algo runtime: 13.770000, total runs: 21
+14.615243, -1.698970, -1.000000, 15, 0.845243, alpha=1.1540000072426038, ps=0.1687449062806379, rho=0.2254564962297173, wp=0.0163068421901426
+Outputting detailed information into files at iteration 4
+Max Java memory: 2093809664
+Total Java memory: 116928512
+Free Java memory: 46582536
+Discarding 0 constant inputs of 4 in total.
+Discarding 1 constant inputs of 1 in total.
+Learning model with 21 data points of dimension 5 ... 
+Model has no censored data - using normal random forest
+Iteration 5: learning rf model using 21 data points (4 new)... took 0.027166s.
+Optimizing EI at valdata.iteration 5 ...
+Compute negEI for all conf. seen at valdata.iteration 5: took 0.002619 s
+LS 1 took 0.004824 seconds and yielded neg log EI 6.194590
+LS 2 took 0.007256 seconds and yielded neg log EI 6.194590
+LS 3 took 0.004695 seconds and yielded neg log EI 7.444092
+LS 4 took 0.009699 seconds and yielded neg log EI 7.060681
+LS 5 took 0.007268 seconds and yielded neg log EI 6.666236
+LS 6 took 0.007238 seconds and yielded neg log EI 7.060681
+LS 7 took 0.007272 seconds and yielded neg log EI 7.604857
+LS 8 took 0.007185 seconds and yielded neg log EI 7.960646
+LS 9 took 0.009771 seconds and yielded neg log EI 6.666236
+LS 10 took 0.012133 seconds and yielded neg log EI 7.060681
+Optimization of EI at valdata.iteration 5: took 0.138847 s
+f_min_samples = -1.698970
+Rank of mean of top EI: 460 (-1.154375 +/- 0.671361); config with min. pred mean: -1.320801 +/- 0.118667, EI=-6.194590
+Challenger 1: predicted -1.154375 +/- 0.671361, expected improvement -6.194590
+Challenger 2: predicted -1.154375 +/- 0.671361, expected improvement -6.194590
+Challenger 3: predicted -1.154375 +/- 0.671361, expected improvement -6.194590
+Challenger 4: predicted -1.154375 +/- 0.671361, expected improvement -6.194590
+Challenger 5: predicted -1.154375 +/- 0.671361, expected improvement -6.194590
+Challenger 6: predicted -1.154375 +/- 0.671361, expected improvement -6.194590
+Challenger 7: predicted -1.154375 +/- 0.671361, expected improvement -6.194590
+Challenger 8: predicted -1.154375 +/- 0.671361, expected improvement -6.194590
+Challenger 9: predicted -1.154375 +/- 0.671361, expected improvement -6.194590
+Challenger 10: predicted -1.154375 +/- 0.671361, expected improvement -6.194590
+Performing runs for at least 1.000000 seconds (fraction options.frac_rawruntime=0.500000 of time in this iteration)
+Challenger 1 --- EI configuration)
+Performing up to 1 run(s) for challenger 22 up to a total bound Inf on 1 instances.
+Iteration 5: running config 22 on instance 1 with seed 895547936 and captime 5
+Iteration 5: doing 1 runs: took 0.06CPU s, wall clock time: 0.81558s
+Based on the runs on their 1 shared instances, challenger 22 has lower bound 0.060000 and incumbent 15 has obj 0.020000.
+Based on 1 runs, challenger 22 is worse (lb on obj 0.060000) than incumbent 15 (obj 0.020000) -> stopping its evaluation.
+Incumbent at iteration 5: 15 with -1.698970 +/- -1.000000 and 1 runs. Iteration time: 0.166013, total overhead time: 1.011256, total raw algo runtime: 13.870000, total runs: 22
+14.881256, -1.698970, -1.000000, 15, 1.011256, alpha=1.1540000072426038, ps=0.1687449062806379, rho=0.2254564962297173, wp=0.0163068421901426
+Challenger 2 --- random configuration)
+Performing up to 1 run(s) for challenger 23 up to a total bound Inf on 1 instances.
+Iteration 5: running config 23 on instance 1 with seed 895547936 and captime 5
+Iteration 5: doing 1 runs: took 0.05CPU s, wall clock time: 0.90416s
+Based on the runs on their 1 shared instances, challenger 23 has lower bound 0.050000 and incumbent 15 has obj 0.020000.
+Based on 1 runs, challenger 23 is worse (lb on obj 0.050000) than incumbent 15 (obj 0.020000) -> stopping its evaluation.
+Incumbent at iteration 5: 15 with -1.698970 +/- -1.000000 and 1 runs. Iteration time: 0.166013, total overhead time: 1.011256, total raw algo runtime: 13.970000, total runs: 23
+14.981256, -1.698970, -1.000000, 15, 1.011256, alpha=1.1540000072426038, ps=0.1687449062806379, rho=0.2254564962297173, wp=0.0163068421901426
+So far, spent 0.200000 seconds of raw target algorithm time in this iteration. Running up to 1.000000 seconds
+Challenger 3 --- EI configuration)
+Performing up to 1 run(s) for challenger 24 up to a total bound Inf on 1 instances.
+Iteration 5: running config 24 on instance 1 with seed 895547936 and captime 5
+Iteration 5: doing 1 runs: took 0.08CPU s, wall clock time: 0.84482s
+Based on the runs on their 1 shared instances, challenger 24 has lower bound 0.080000 and incumbent 15 has obj 0.020000.
+Based on 1 runs, challenger 24 is worse (lb on obj 0.080000) than incumbent 15 (obj 0.020000) -> stopping its evaluation.
+Incumbent at iteration 5: 15 with -1.698970 +/- -1.000000 and 1 runs. Iteration time: 0.166013, total overhead time: 1.011256, total raw algo runtime: 14.070000, total runs: 24
+15.081256, -1.698970, -1.000000, 15, 1.011256, alpha=1.1540000072426038, ps=0.1687449062806379, rho=0.2254564962297173, wp=0.0163068421901426
+So far, spent 0.300000 seconds of raw target algorithm time in this iteration. Running up to 1.000000 seconds
+Challenger 4 --- random configuration)
+Performing up to 1 run(s) for challenger 25 up to a total bound Inf on 1 instances.
+Iteration 5: running config 25 on instance 1 with seed 895547936 and captime 5
+Iteration 5: doing 1 runs: took 1.02CPU s, wall clock time: 1.98s
+Based on the runs on their 1 shared instances, challenger 25 has lower bound 1.020000 and incumbent 15 has obj 0.020000.
+Based on 1 runs, challenger 25 is worse (lb on obj 1.020000) than incumbent 15 (obj 0.020000) -> stopping its evaluation.
+Incumbent at iteration 5: 15 with -1.698970 +/- -1.000000 and 1 runs. Iteration time: 0.166013, total overhead time: 1.011256, total raw algo runtime: 15.090000, total runs: 25
+16.101256, -1.698970, -1.000000, 15, 1.011256, alpha=1.1540000072426038, ps=0.1687449062806379, rho=0.2254564962297173, wp=0.0163068421901426
+Max Java memory: 2093809664
+Total Java memory: 116928512
+Free Java memory: 45147968
+Discarding 0 constant inputs of 4 in total.
+Discarding 1 constant inputs of 1 in total.
+Learning model with 25 data points of dimension 5 ... 
+Model has no censored data - using normal random forest
+Iteration 6: learning rf model using 25 data points (4 new)... took 0.030988s.
+Optimizing EI at valdata.iteration 6 ...
+Compute negEI for all conf. seen at valdata.iteration 6: took 0.002727 s
+LS 1 took 0.007339 seconds and yielded neg log EI 6.576042
+LS 2 took 0.004687 seconds and yielded neg log EI 6.886464
+LS 3 took 0.004655 seconds and yielded neg log EI 7.146292
+LS 4 took 0.012245 seconds and yielded neg log EI 6.547868
+LS 5 took 0.012021 seconds and yielded neg log EI 6.937728
+LS 6 took 0.014378 seconds and yielded neg log EI 6.576042
+LS 7 took 0.012057 seconds and yielded neg log EI 6.851982
+LS 8 took 0.009750 seconds and yielded neg log EI 6.886464
+LS 9 took 0.012183 seconds and yielded neg log EI 6.769226
+LS 10 took 0.024394 seconds and yielded neg log EI 6.661093
+Optimization of EI at valdata.iteration 6: took 0.186189 s
+f_min_samples = -1.698970
+Rank of mean of top EI: 2525 (-0.882745 +/- 0.769141); config with min. pred mean: -1.325068 +/- 0.091383, EI=-6.547868
+Challenger 1: predicted -0.882745 +/- 0.769141, expected improvement -6.547868
+Challenger 2: predicted -0.901237 +/- 0.754510, expected improvement -6.551042
+Challenger 3: predicted -0.799004 +/- 0.821280, expected improvement -6.576042
+Challenger 4: predicted -0.799004 +/- 0.821280, expected improvement -6.576042
+Challenger 5: predicted -0.799004 +/- 0.821280, expected improvement -6.576042
+Challenger 6: predicted -0.799004 +/- 0.821280, expected improvement -6.576042
+Challenger 7: predicted -0.799004 +/- 0.821280, expected improvement -6.576042
+Challenger 8: predicted -0.799004 +/- 0.821280, expected improvement -6.576042
+Challenger 9: predicted -0.799004 +/- 0.821280, expected improvement -6.576042
+Challenger 10: predicted -0.799004 +/- 0.821280, expected improvement -6.576042
+Performing runs for at least 1.000000 seconds (fraction options.frac_rawruntime=0.500000 of time in this iteration)
+Challenger 1 --- EI configuration)
+Performing up to 1 run(s) for challenger 26 up to a total bound Inf on 1 instances.
+Iteration 6: running config 26 on instance 1 with seed 895547936 and captime 5
+Iteration 6: doing 1 runs: took 0.09CPU s, wall clock time: 0.90949s
+Based on the runs on their 1 shared instances, challenger 26 has lower bound 0.090000 and incumbent 15 has obj 0.020000.
+Based on 1 runs, challenger 26 is worse (lb on obj 0.090000) than incumbent 15 (obj 0.020000) -> stopping its evaluation.
+Incumbent at iteration 6: 15 with -1.698970 +/- -1.000000 and 1 runs. Iteration time: 0.217177, total overhead time: 1.228433, total raw algo runtime: 15.190000, total runs: 26
+16.418433, -1.698970, -1.000000, 15, 1.228433, alpha=1.1540000072426038, ps=0.1687449062806379, rho=0.2254564962297173, wp=0.0163068421901426
+Challenger 2 --- random configuration)
+Performing up to 1 run(s) for challenger 27 up to a total bound Inf on 1 instances.
+Iteration 6: running config 27 on instance 1 with seed 895547936 and captime 5
+Iteration 6: doing 1 runs: took 0.26CPU s, wall clock time: 1.0482s
+Based on the runs on their 1 shared instances, challenger 27 has lower bound 0.260000 and incumbent 15 has obj 0.020000.
+Based on 1 runs, challenger 27 is worse (lb on obj 0.260000) than incumbent 15 (obj 0.020000) -> stopping its evaluation.
+Incumbent at iteration 6: 15 with -1.698970 +/- -1.000000 and 1 runs. Iteration time: 0.217177, total overhead time: 1.228433, total raw algo runtime: 15.450000, total runs: 27
+16.678433, -1.698970, -1.000000, 15, 1.228433, alpha=1.1540000072426038, ps=0.1687449062806379, rho=0.2254564962297173, wp=0.0163068421901426
+So far, spent 0.360000 seconds of raw target algorithm time in this iteration. Running up to 1.000000 seconds
+Challenger 3 --- EI configuration)
+Performing up to 1 run(s) for challenger 28 up to a total bound Inf on 1 instances.
+Iteration 6: running config 28 on instance 1 with seed 895547936 and captime 5
+Iteration 6: doing 1 runs: took 0.32CPU s, wall clock time: 1.0645s
+Based on the runs on their 1 shared instances, challenger 28 has lower bound 0.320000 and incumbent 15 has obj 0.020000.
+Based on 1 runs, challenger 28 is worse (lb on obj 0.320000) than incumbent 15 (obj 0.020000) -> stopping its evaluation.
+Incumbent at iteration 6: 15 with -1.698970 +/- -1.000000 and 1 runs. Iteration time: 0.217177, total overhead time: 1.228433, total raw algo runtime: 15.770000, total runs: 28
+16.998433, -1.698970, -1.000000, 15, 1.228433, alpha=1.1540000072426038, ps=0.1687449062806379, rho=0.2254564962297173, wp=0.0163068421901426
+So far, spent 0.680000 seconds of raw target algorithm time in this iteration. Running up to 1.000000 seconds
+Challenger 4 --- random configuration)
+Performing up to 1 run(s) for challenger 29 up to a total bound Inf on 1 instances.
+Iteration 6: running config 29 on instance 1 with seed 895547936 and captime 5
+Iteration 6: doing 1 runs: took 0.03CPU s, wall clock time: 0.77018s
+Based on the runs on their 1 shared instances, challenger 29 has lower bound 0.030000 and incumbent 15 has obj 0.020000.
+Based on 1 runs, challenger 29 is worse (lb on obj 0.030000) than incumbent 15 (obj 0.020000) -> stopping its evaluation.
+Incumbent at iteration 6: 15 with -1.698970 +/- -1.000000 and 1 runs. Iteration time: 0.217177, total overhead time: 1.228433, total raw algo runtime: 15.870000, total runs: 29
+17.098433, -1.698970, -1.000000, 15, 1.228433, alpha=1.1540000072426038, ps=0.1687449062806379, rho=0.2254564962297173, wp=0.0163068421901426
+So far, spent 0.780000 seconds of raw target algorithm time in this iteration. Running up to 1.000000 seconds
+Challenger 5 --- EI configuration)
+Performing up to 1 run(s) for challenger 30 up to a total bound Inf on 1 instances.
+Iteration 6: running config 30 on instance 1 with seed 895547936 and captime 5
+Iteration 6: doing 1 runs: took 0.04CPU s, wall clock time: 0.79672s
+Based on the runs on their 1 shared instances, challenger 30 has lower bound 0.040000 and incumbent 15 has obj 0.020000.
+Based on 1 runs, challenger 30 is worse (lb on obj 0.040000) than incumbent 15 (obj 0.020000) -> stopping its evaluation.
+Incumbent at iteration 6: 15 with -1.698970 +/- -1.000000 and 1 runs. Iteration time: 0.217177, total overhead time: 1.228433, total raw algo runtime: 15.970000, total runs: 30
+17.198433, -1.698970, -1.000000, 15, 1.228433, alpha=1.1540000072426038, ps=0.1687449062806379, rho=0.2254564962297173, wp=0.0163068421901426
+So far, spent 0.880000 seconds of raw target algorithm time in this iteration. Running up to 1.000000 seconds
+Challenger 6 --- random configuration)
+Performing up to 1 run(s) for challenger 31 up to a total bound Inf on 1 instances.
+Iteration 6: running config 31 on instance 1 with seed 895547936 and captime 5
+Iteration 6: doing 1 runs: took 0.02CPU s, wall clock time: 0.76077s
+Based on the runs on their 1 shared instances, challenger 31 has lower bound 0.020000 and incumbent 15 has obj 0.020000.
+Challenger 31 has all the 1 runs of the incumbent 15, but doesn't have better objective (0.020000 as opposed to 0.020000) -> stopping its evaluation.
+Incumbent at iteration 6: 15 with -1.698970 +/- -1.000000 and 1 runs. Iteration time: 0.217177, total overhead time: 1.228433, total raw algo runtime: 16.070000, total runs: 31
+17.298433, -1.698970, -1.000000, 15, 1.228433, alpha=1.1540000072426038, ps=0.1687449062806379, rho=0.2254564962297173, wp=0.0163068421901426
+So far, spent 0.980000 seconds of raw target algorithm time in this iteration. Running up to 1.000000 seconds
+Challenger 7 --- EI configuration)
+Performing up to 1 run(s) for challenger 32 up to a total bound Inf on 1 instances.
+Iteration 6: running config 32 on instance 1 with seed 895547936 and captime 5
+Iteration 6: doing 1 runs: took 0.03CPU s, wall clock time: 0.76272s
+Based on the runs on their 1 shared instances, challenger 32 has lower bound 0.030000 and incumbent 15 has obj 0.020000.
+Based on 1 runs, challenger 32 is worse (lb on obj 0.030000) than incumbent 15 (obj 0.020000) -> stopping its evaluation.
+Incumbent at iteration 6: 15 with -1.698970 +/- -1.000000 and 1 runs. Iteration time: 0.217177, total overhead time: 1.228433, total raw algo runtime: 16.170000, total runs: 32
+17.398433, -1.698970, -1.000000, 15, 1.228433, alpha=1.1540000072426038, ps=0.1687449062806379, rho=0.2254564962297173, wp=0.0163068421901426
+Max Java memory: 2093809664
+Total Java memory: 116928512
+Free Java memory: 42817800
+Discarding 0 constant inputs of 4 in total.
+Discarding 1 constant inputs of 1 in total.
+Learning model with 32 data points of dimension 5 ... 
+Model has no censored data - using normal random forest
+Iteration 7: learning rf model using 32 data points (7 new)... took 0.0447s.
+Optimizing EI at valdata.iteration 7 ...
+Compute negEI for all conf. seen at valdata.iteration 7: took 0.002842 s
+LS 1 took 0.010113 seconds and yielded neg log EI 6.021903
+LS 2 took 0.004819 seconds and yielded neg log EI 6.770677
+LS 3 took 0.007496 seconds and yielded neg log EI 6.051060
+LS 4 took 0.009882 seconds and yielded neg log EI 6.911274
+LS 5 took 0.012545 seconds and yielded neg log EI 6.971769
+LS 6 took 0.007413 seconds and yielded neg log EI 6.657593
+LS 7 took 0.022872 seconds and yielded neg log EI 6.003664
+LS 8 took 0.015002 seconds and yielded neg log EI 6.492583
+LS 9 took 0.015094 seconds and yielded neg log EI 6.248398
+LS 10 took 0.012500 seconds and yielded neg log EI 6.418005
+Optimization of EI at valdata.iteration 7: took 0.185772 s
+f_min_samples = -1.698970
+Rank of mean of top EI: 1264 (-1.057343 +/- 0.875005); config with min. pred mean: -1.514376 +/- 0.164529, EI=-5.939061
+Challenger 1: predicted -1.057343 +/- 0.875005, expected improvement -5.939061
+Challenger 2: predicted -1.057916 +/- 0.868282, expected improvement -5.950317
+Challenger 3: predicted -0.874547 +/- 1.033286, expected improvement -5.965326
+Challenger 4: predicted -1.012999 +/- 0.882224, expected improvement -6.003664
+Challenger 5: predicted -1.012999 +/- 0.882224, expected improvement -6.003664
+Challenger 6: predicted -0.943666 +/- 0.936465, expected improvement -6.021903
+Challenger 7: predicted -0.943666 +/- 0.936465, expected improvement -6.021903
+Challenger 8: predicted -0.943666 +/- 0.936465, expected improvement -6.021903
+Challenger 9: predicted -1.017965 +/- 0.855943, expected improvement -6.046226
+Challenger 10: predicted -1.207568 +/- 0.678629, expected improvement -6.051060
+Performing runs for at least 1.000000 seconds (fraction options.frac_rawruntime=0.500000 of time in this iteration)
+Challenger 1 --- EI configuration)
+Performing up to 1 run(s) for challenger 33 up to a total bound Inf on 1 instances.
+Iteration 7: running config 33 on instance 1 with seed 895547936 and captime 5
+Iteration 7: doing 1 runs: took 0.01CPU s, wall clock time: 0.79722s
+Based on the runs on their 1 shared instances, challenger 33 has lower bound 0.010000 and incumbent 15 has obj 0.020000.
+Challenger 33 has all the 1 runs of the incumbent 15 and has better objective (0.010000 as opposed to 0.020000) -> making it new incumbent.
+Incumbent at iteration 7: 33 with -2.000000 +/- -1.000000 and 1 runs. Iteration time: 0.230472, total overhead time: 1.458905, total raw algo runtime: 16.270000, total runs: 33
+17.728905, -2.000000, -1.000000, 33, 1.458905, alpha=1.0547365406682874, ps=0.0585887564920681, rho=0.2278552734249653, wp=0.0452034456554163
+Challenger 2 --- random configuration)
+Performing up to 1 run(s) for challenger 34 up to a total bound Inf on 1 instances.
+Iteration 7: running config 34 on instance 1 with seed 895547936 and captime 5
+Iteration 7: doing 1 runs: took 0.02CPU s, wall clock time: 0.74755s
+Based on the runs on their 1 shared instances, challenger 34 has lower bound 0.020000 and incumbent 33 has obj 0.010000.
+Based on 1 runs, challenger 34 is worse (lb on obj 0.020000) than incumbent 33 (obj 0.010000) -> stopping its evaluation.
+Incumbent at iteration 7: 33 with -2.000000 +/- -1.000000 and 1 runs. Iteration time: 0.230472, total overhead time: 1.458905, total raw algo runtime: 16.370000, total runs: 34
+17.828905, -2.000000, -1.000000, 33, 1.458905, alpha=1.0547365406682874, ps=0.0585887564920681, rho=0.2278552734249653, wp=0.0452034456554163
+So far, spent 0.200000 seconds of raw target algorithm time in this iteration. Running up to 1.000000 seconds
+Challenger 3 --- EI configuration)
+Performing up to 1 run(s) for challenger 35 up to a total bound Inf on 1 instances.
+Iteration 7: running config 35 on instance 1 with seed 895547936 and captime 5
+Iteration 7: doing 1 runs: took 0.02CPU s, wall clock time: 0.76313s
+Based on the runs on their 1 shared instances, challenger 35 has lower bound 0.020000 and incumbent 33 has obj 0.010000.
+Based on 1 runs, challenger 35 is worse (lb on obj 0.020000) than incumbent 33 (obj 0.010000) -> stopping its evaluation.
+Incumbent at iteration 7: 33 with -2.000000 +/- -1.000000 and 1 runs. Iteration time: 0.230472, total overhead time: 1.458905, total raw algo runtime: 16.470000, total runs: 35
+17.928905, -2.000000, -1.000000, 33, 1.458905, alpha=1.0547365406682874, ps=0.0585887564920681, rho=0.2278552734249653, wp=0.0452034456554163
+So far, spent 0.300000 seconds of raw target algorithm time in this iteration. Running up to 1.000000 seconds
+Challenger 4 --- random configuration)
+Performing up to 1 run(s) for challenger 36 up to a total bound Inf on 1 instances.
+Iteration 7: running config 36 on instance 1 with seed 895547936 and captime 5
+Iteration 7: doing 1 runs: took 2.39CPU s, wall clock time: 3.229s
+Based on the runs on their 1 shared instances, challenger 36 has lower bound 2.390000 and incumbent 33 has obj 0.010000.
+Based on 1 runs, challenger 36 is worse (lb on obj 2.390000) than incumbent 33 (obj 0.010000) -> stopping its evaluation.
+Incumbent at iteration 7: 33 with -2.000000 +/- -1.000000 and 1 runs. Iteration time: 0.230472, total overhead time: 1.458905, total raw algo runtime: 18.860000, total runs: 36
+20.318905, -2.000000, -1.000000, 33, 1.458905, alpha=1.0547365406682874, ps=0.0585887564920681, rho=0.2278552734249653, wp=0.0452034456554163
+Max Java memory: 2093809664
+Total Java memory: 116928512
+Free Java memory: 40965272
+Discarding 0 constant inputs of 4 in total.
+Discarding 1 constant inputs of 1 in total.
+Learning model with 36 data points of dimension 5 ... 
+Model has no censored data - using normal random forest
+Iteration 8: learning rf model using 36 data points (4 new)... took 0.046298s.
+Optimizing EI at valdata.iteration 8 ...
+Compute negEI for all conf. seen at valdata.iteration 8: took 0.003038 s
+LS 1 took 0.010530 seconds and yielded neg log EI 6.874932
+LS 2 took 0.007837 seconds and yielded neg log EI 7.455139
+LS 3 took 0.010095 seconds and yielded neg log EI 8.449047
+LS 4 took 0.013245 seconds and yielded neg log EI 7.178774
+LS 5 took 0.007675 seconds and yielded neg log EI 7.178774
+LS 6 took 0.016477 seconds and yielded neg log EI 7.235703
+LS 7 took 0.010044 seconds and yielded neg log EI 7.474563
+LS 8 took 0.010023 seconds and yielded neg log EI 7.101951
+LS 9 took 0.015254 seconds and yielded neg log EI 7.307021
+LS 10 took 0.020645 seconds and yielded neg log EI 6.890052
+Optimization of EI at valdata.iteration 8: took 0.192076 s
+f_min_samples = -2.000000
+Rank of mean of top EI: 98 (-1.508532 +/- 0.669559); config with min. pred mean: -1.679694 +/- 0.118232, EI=-6.766769
+Challenger 1: predicted -1.508532 +/- 0.669559, expected improvement -6.766769
+Challenger 2: predicted -1.069921 +/- 1.023675, expected improvement -6.840031
+Challenger 3: predicted -1.055788 +/- 1.017432, expected improvement -6.874932
+Challenger 4: predicted -1.066910 +/- 1.000478, expected improvement -6.890052
+Challenger 5: predicted -1.052312 +/- 1.009706, expected improvement -6.895884
+Challenger 6: predicted -1.304676 +/- 0.796071, expected improvement -6.900245
+Challenger 7: predicted -1.129218 +/- 0.926274, expected improvement -6.937699
+Challenger 8: predicted -1.023432 +/- 0.996271, expected improvement -6.972216
+Challenger 9: predicted -1.023432 +/- 0.996271, expected improvement -6.972216
+Challenger 10: predicted -1.023432 +/- 0.996271, expected improvement -6.972216
+Performing runs for at least 1.000000 seconds (fraction options.frac_rawruntime=0.500000 of time in this iteration)
+Challenger 1 --- EI configuration)
+Performing up to 1 run(s) for challenger 37 up to a total bound Inf on 1 instances.
+Iteration 8: running config 37 on instance 1 with seed 895547936 and captime 5
+Iteration 8: doing 1 runs: took 0.17CPU s, wall clock time: 0.95545s
+Based on the runs on their 1 shared instances, challenger 37 has lower bound 0.170000 and incumbent 33 has obj 0.010000.
+Based on 1 runs, challenger 37 is worse (lb on obj 0.170000) than incumbent 33 (obj 0.010000) -> stopping its evaluation.
+Incumbent at iteration 8: 33 with -2.000000 +/- -1.000000 and 1 runs. Iteration time: 0.238374, total overhead time: 1.697279, total raw algo runtime: 19.030000, total runs: 37
+20.727279, -2.000000, -1.000000, 33, 1.697279, alpha=1.0547365406682874, ps=0.0585887564920681, rho=0.2278552734249653, wp=0.0452034456554163
+Challenger 2 --- random configuration)
+Performing up to 1 run(s) for challenger 38 up to a total bound Inf on 1 instances.
+Iteration 8: running config 38 on instance 1 with seed 895547936 and captime 5
+Iteration 8: doing 1 runs: took 0.27CPU s, wall clock time: 1.0436s
+Based on the runs on their 1 shared instances, challenger 38 has lower bound 0.270000 and incumbent 33 has obj 0.010000.
+Based on 1 runs, challenger 38 is worse (lb on obj 0.270000) than incumbent 33 (obj 0.010000) -> stopping its evaluation.
+Incumbent at iteration 8: 33 with -2.000000 +/- -1.000000 and 1 runs. Iteration time: 0.238374, total overhead time: 1.697279, total raw algo runtime: 19.300000, total runs: 38
+20.997279, -2.000000, -1.000000, 33, 1.697279, alpha=1.0547365406682874, ps=0.0585887564920681, rho=0.2278552734249653, wp=0.0452034456554163
+So far, spent 0.440000 seconds of raw target algorithm time in this iteration. Running up to 1.000000 seconds
+Challenger 3 --- EI configuration)
+Performing up to 1 run(s) for challenger 39 up to a total bound Inf on 1 instances.
+Iteration 8: running config 39 on instance 1 with seed 895547936 and captime 5
+Iteration 8: doing 1 runs: took 0.36CPU s, wall clock time: 1.1027s
+Based on the runs on their 1 shared instances, challenger 39 has lower bound 0.360000 and incumbent 33 has obj 0.010000.
+Based on 1 runs, challenger 39 is worse (lb on obj 0.360000) than incumbent 33 (obj 0.010000) -> stopping its evaluation.
+Incumbent at iteration 8: 33 with -2.000000 +/- -1.000000 and 1 runs. Iteration time: 0.238374, total overhead time: 1.697279, total raw algo runtime: 19.660000, total runs: 39
+21.357279, -2.000000, -1.000000, 33, 1.697279, alpha=1.0547365406682874, ps=0.0585887564920681, rho=0.2278552734249653, wp=0.0452034456554163
+So far, spent 0.800000 seconds of raw target algorithm time in this iteration. Running up to 1.000000 seconds
+Challenger 4 --- random configuration)
+Performing up to 1 run(s) for challenger 40 up to a total bound Inf on 1 instances.
+Iteration 8: running config 40 on instance 1 with seed 895547936 and captime 5
+Iteration 8: doing 1 runs: took 5CPU s, wall clock time: 5.8546s
+Based on the runs on their 1 shared instances, challenger 40 has lower bound 5.010000 and incumbent 33 has obj 0.010000.
+Based on 1 runs, challenger 40 is worse (lb on obj 5.010000) than incumbent 33 (obj 0.010000) -> stopping its evaluation.
+Incumbent at iteration 8: 33 with -2.000000 +/- -1.000000 and 1 runs. Iteration time: 0.238374, total overhead time: 1.697279, total raw algo runtime: 24.660000, total runs: 40
+26.357279, -2.000000, -1.000000, 33, 1.697279, alpha=1.0547365406682874, ps=0.0585887564920681, rho=0.2278552734249653, wp=0.0452034456554163
+Outputting detailed information into files at iteration 8
+Max Java memory: 2093809664
+Total Java memory: 116928512
+Free Java memory: 39126584
+Discarding 0 constant inputs of 4 in total.
+Discarding 1 constant inputs of 1 in total.
+Learning model with 40 data points of dimension 5 ... 
+Model has no censored data - using normal random forest
+Iteration 9: learning rf model using 40 data points (4 new)... took 0.045593s.
+Optimizing EI at valdata.iteration 9 ...
+Compute negEI for all conf. seen at valdata.iteration 9: took 0.002966 s
+LS 1 took 0.010183 seconds and yielded neg log EI 7.130452
+LS 2 took 0.007420 seconds and yielded neg log EI 7.511262
+LS 3 took 0.007228 seconds and yielded neg log EI 7.192023
+LS 4 took 0.007367 seconds and yielded neg log EI 7.192023
+LS 5 took 0.007346 seconds and yielded neg log EI 7.841701
+LS 6 took 0.007271 seconds and yielded neg log EI 7.529693
+LS 7 took 0.012598 seconds and yielded neg log EI 7.777404
+LS 8 took 0.014919 seconds and yielded neg log EI 7.443132
+LS 9 took 0.004676 seconds and yielded neg log EI 10.520324
+LS 10 took 0.012040 seconds and yielded neg log EI 7.961132
+Optimization of EI at valdata.iteration 9: took 0.154153 s
+f_min_samples = -2.000000
+Rank of mean of top EI: 276 (-1.486621 +/- 0.569654); config with min. pred mean: -1.705012 +/- 0.121778, EI=-7.130452
+Challenger 1: predicted -1.486621 +/- 0.569654, expected improvement -7.130452
+Challenger 2: predicted -1.182391 +/- 0.786026, expected improvement -7.192023
+Challenger 3: predicted -1.182391 +/- 0.786026, expected improvement -7.192023
+Challenger 4: predicted -1.182391 +/- 0.786026, expected improvement -7.192023
+Challenger 5: predicted -1.182391 +/- 0.786026, expected improvement -7.192023
+Challenger 6: predicted -1.182391 +/- 0.786026, expected improvement -7.192023
+Challenger 7: predicted -1.182391 +/- 0.786026, expected improvement -7.192023
+Challenger 8: predicted -1.182391 +/- 0.786026, expected improvement -7.192023
+Challenger 9: predicted -1.182391 +/- 0.786026, expected improvement -7.192023
+Challenger 10: predicted -1.182391 +/- 0.786026, expected improvement -7.192023
+Performing runs for at least 1.000000 seconds (fraction options.frac_rawruntime=0.500000 of time in this iteration)
+Challenger 1 --- EI configuration)
+Performing up to 1 run(s) for challenger 41 up to a total bound Inf on 1 instances.
+Iteration 9: running config 41 on instance 1 with seed 895547936 and captime 5
+Iteration 9: doing 1 runs: took 0.03CPU s, wall clock time: 0.82525s
+Based on the runs on their 1 shared instances, challenger 41 has lower bound 0.030000 and incumbent 33 has obj 0.010000.
+Based on 1 runs, challenger 41 is worse (lb on obj 0.030000) than incumbent 33 (obj 0.010000) -> stopping its evaluation.
+Incumbent at iteration 9: 33 with -2.000000 +/- -1.000000 and 1 runs. Iteration time: 0.199746, total overhead time: 1.897025, total raw algo runtime: 24.760000, total runs: 41
+26.657025, -2.000000, -1.000000, 33, 1.897025, alpha=1.0547365406682874, ps=0.0585887564920681, rho=0.2278552734249653, wp=0.0452034456554163
+Challenger 2 --- random configuration)
+Performing up to 1 run(s) for challenger 42 up to a total bound Inf on 1 instances.
+Iteration 9: running config 42 on instance 1 with seed 895547936 and captime 5
+Iteration 9: doing 1 runs: took 2.87CPU s, wall clock time: 3.678s
+Based on the runs on their 1 shared instances, challenger 42 has lower bound 2.870000 and incumbent 33 has obj 0.010000.
+Based on 1 runs, challenger 42 is worse (lb on obj 2.870000) than incumbent 33 (obj 0.010000) -> stopping its evaluation.
+Incumbent at iteration 9: 33 with -2.000000 +/- -1.000000 and 1 runs. Iteration time: 0.199746, total overhead time: 1.897025, total raw algo runtime: 27.630000, total runs: 42
+29.527025, -2.000000, -1.000000, 33, 1.897025, alpha=1.0547365406682874, ps=0.0585887564920681, rho=0.2278552734249653, wp=0.0452034456554163
+Max Java memory: 2093809664
+Total Java memory: 116928512
+Free Java memory: 59956552
+Discarding 0 constant inputs of 4 in total.
+Discarding 1 constant inputs of 1 in total.
+Learning model with 42 data points of dimension 5 ... 
+Model has no censored data - using normal random forest
+Iteration 10: learning rf model using 42 data points (2 new)... took 0.043738s.
+Optimizing EI at valdata.iteration 10 ...
+Compute negEI for all conf. seen at valdata.iteration 10: took 0.003031 s
+LS 1 took 0.004826 seconds and yielded neg log EI 8.326192
+LS 2 took 0.004748 seconds and yielded neg log EI 8.947984
+LS 3 took 0.007578 seconds and yielded neg log EI 7.421197
+LS 4 took 0.012745 seconds and yielded neg log EI 7.407258
+LS 5 took 0.019725 seconds and yielded neg log EI 7.397707
+LS 6 took 0.007342 seconds and yielded neg log EI 7.716681
+LS 7 took 0.007336 seconds and yielded neg log EI 7.194116
+LS 8 took 0.012396 seconds and yielded neg log EI 8.565045
+LS 9 took 0.012639 seconds and yielded neg log EI 7.293202
+LS 10 took 0.007445 seconds and yielded neg log EI 8.399229
+Optimization of EI at valdata.iteration 10: took 0.169582 s
+f_min_samples = -2.000000
+Rank of mean of top EI: 450 (-1.322699 +/- 0.679447); config with min. pred mean: -1.623122 +/- 0.184598, EI=-7.194116
+Challenger 1: predicted -1.322699 +/- 0.679447, expected improvement -7.194116
+Challenger 2: predicted -1.322699 +/- 0.679447, expected improvement -7.194116
+Challenger 3: predicted -1.322699 +/- 0.679447, expected improvement -7.194116
+Challenger 4: predicted -1.211951 +/- 0.757705, expected improvement -7.211128
+Challenger 5: predicted -1.211951 +/- 0.757705, expected improvement -7.211128
+Challenger 6: predicted -0.964457 +/- 0.933802, expected improvement -7.229015
+Challenger 7: predicted -0.964457 +/- 0.933802, expected improvement -7.229015
+Challenger 8: predicted -0.964457 +/- 0.933802, expected improvement -7.229015
+Challenger 9: predicted -1.157741 +/- 0.771899, expected improvement -7.293202
+Challenger 10: predicted -1.157741 +/- 0.771899, expected improvement -7.293202
+Performing runs for at least 1.000000 seconds (fraction options.frac_rawruntime=0.500000 of time in this iteration)
+Challenger 1 --- EI configuration)
+Performing up to 1 run(s) for challenger 43 up to a total bound Inf on 1 instances.
+Iteration 10: running config 43 on instance 1 with seed 895547936 and captime 5
+Iteration 10: doing 1 runs: took 0.37CPU s, wall clock time: 1.1458s
+Based on the runs on their 1 shared instances, challenger 43 has lower bound 0.370000 and incumbent 33 has obj 0.010000.
+Based on 1 runs, challenger 43 is worse (lb on obj 0.370000) than incumbent 33 (obj 0.010000) -> stopping its evaluation.
+Incumbent at iteration 10: 33 with -2.000000 +/- -1.000000 and 1 runs. Iteration time: 0.213320, total overhead time: 2.110345, total raw algo runtime: 28.000000, total runs: 43
+30.110345, -2.000000, -1.000000, 33, 2.110345, alpha=1.0547365406682874, ps=0.0585887564920681, rho=0.2278552734249653, wp=0.0452034456554163
+Max Java memory: 2093809664
+Total Java memory: 116928512
+Free Java memory: 59495416
+Discarding 0 constant inputs of 4 in total.
+Discarding 1 constant inputs of 1 in total.
+Learning model with 43 data points of dimension 5 ... 
+Model has no censored data - using normal random forest
+Iteration 11: learning rf model using 43 data points (1 new)... took 0.045538s.
+Optimizing EI at valdata.iteration 11 ...
+Compute negEI for all conf. seen at valdata.iteration 11: took 0.003230 s
+LS 1 took 0.007678 seconds and yielded neg log EI 6.894803
+LS 2 took 0.004942 seconds and yielded neg log EI 7.349611
+LS 3 took 0.004821 seconds and yielded neg log EI 7.780509
+LS 4 took 0.012778 seconds and yielded neg log EI 7.210053
+LS 5 took 0.007585 seconds and yielded neg log EI 8.425671
+LS 6 took 0.012841 seconds and yielded neg log EI 6.894803
+LS 7 took 0.015143 seconds and yielded neg log EI 7.380794
+LS 8 took 0.012942 seconds and yielded neg log EI 7.212084
+LS 9 took 0.012614 seconds and yielded neg log EI 8.236494
+LS 10 took 0.010005 seconds and yielded neg log EI 7.736331
+Optimization of EI at valdata.iteration 11: took 0.173070 s
+f_min_samples = -2.000000
+Rank of mean of top EI: 81 (-1.482275 +/- 0.645398); config with min. pred mean: -1.602679 +/- 0.195374, EI=-6.894803
+Challenger 1: predicted -1.482275 +/- 0.645398, expected improvement -6.894803
+Challenger 2: predicted -1.482275 +/- 0.645398, expected improvement -6.894803
+Challenger 3: predicted -1.489245 +/- 0.547139, expected improvement -7.210053
+Challenger 4: predicted -1.428819 +/- 0.593333, expected improvement -7.212084
+Challenger 5: predicted -1.079462 +/- 0.837391, expected improvement -7.265551
+Challenger 6: predicted -1.238794 +/- 0.720079, expected improvement -7.269157
+Challenger 7: predicted -1.295576 +/- 0.670516, expected improvement -7.297090
+Challenger 8: predicted -1.092676 +/- 0.805254, expected improvement -7.336048
+Challenger 9: predicted -1.205012 +/- 0.724039, expected improvement -7.340303
+Challenger 10: predicted -1.205012 +/- 0.724039, expected improvement -7.340303
+Outputting detailed information into files at iteration 11
+
+********************************************
+SMBO finished at 16-Sep-2011 14:00:07. Final best objective: 0.01
+Best configuration:
+alpha=1.0547365406682874, ps=0.0585887564920681, rho=0.2278552734249653, wp=0.0452034456554163
+********************************************
+Saving workspace at end of SMBO run to out/UNTITLED_EXPERIMENTS/scenario-Saps-single-QWH-instance-rfnSub10pars0.83333_10RFo-logM1eiI2ei0nLS10rR10000iS7ac0rF0.5cs2/run0/s_end_of_SMBO.mat
+SMBO finished. Now evaluating configurations on the test set...
+Evaluating function for every entry of the 1 by 1 matrix ...Evaluating function for every entry of the 1 by 1 matrix took 1.0224 seconds.Config id 33 got test quality 0.25 using 100 runs.Saving final workspace to out/UNTITLED_EXPERIMENTS/scenario-Saps-single-QWH-instance-rfnSub10pars0.83333_10RFo-logM1eiI2ei0nLS10rR10000iS7ac0rF0.5cs2/run0/s_m1_.mat

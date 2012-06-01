@@ -1,0 +1,5 @@
+example_data/SWGCP-satisfiable-instances-test/SWlin2006.10207.cnf
+example_data/SWGCP-satisfiable-instances-test/SWlin2006.11896.cnf
+example_data/SWGCP-satisfiable-instances-test/SWlin2006.123.cnf
+example_data/SWGCP-satisfiable-instances-test/SWlin2006.12669.cnf
+example_data/SWGCP-satisfiable-instances-test/SWlin2006.4739.cnf

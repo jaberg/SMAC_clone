@@ -1,0 +1,198 @@
+logfile:/ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/regression/out/M_A_SMAC_mixed/CPLEX12-MIK-mixed-1s-javarf-logM1eiI2ei0nLS10rR10000iS7ac0rF0.5cs2/l-r0.txt
+run folder:/ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/regression/out/M_A_SMAC_mixed/CPLEX12-MIK-mixed-1s-javarf-logM1eiI2ei0nLS10rR10000iS7ac0rF0.5cs2/run0/
+
+********************************************
+SMBO started at 07-Sep-2011 18:03:38
+********************************************
+Call in Matlab: smbo_runner(0, 'scenario_file', 'CPLEX12-MIK-mixed-1s', 'config_file', 'default_config_file.txt', 'intens', 7, 'ei_inc', 2, 'ei_crit', 0, 'numiter', 100000, 'online_cv', 0, 'evalTimesIncumbents', 1, 'experiment_name', 'M_A_SMAC_mixed', 'model', 'javarf', 'capping', 0)
+
+Command line call: smbo_runner 0 scenario_file CPLEX12-MIK-mixed-1s config_file default_config_file.txt intens 7 ei_inc 2 ei_crit 0 numiter 100000 online_cv 0 evalTimesIncumbents 1 experiment_name M_A_SMAC_mixed model javarf capping 0
+
+All options: 'profile', 0, 'adaptive_capping', 0, 'cap_slack', 2, 'maxn', 2000, 'initType', 'random_lhd', 'nInit', -1, 'modelType', 'javarf', 'overallobj', 'mean10', 'intens_schedule', 7, 'ei_inc', 2, 'expImpCriterion', 0, 'frac_rawruntime', 0.5, 'timeout_incl_learning', 1, 'method', 'al', 'min_variance', 1e-14, 'remove_constant_Theta', 1, 'ignore_conditionals', 0, 'subModelType', 'GP-hybridiso', 'strategyForMissing', 0, 'logModel', 1, 'numIterations', 100000, 'totalNumRunLimit', 100000, 'runtimeLimit', Inf, 'opt', 0, 'nSub', 10, 'kappa_max', 1, 'frac_for_refit', 0, 'storeDataInLeaves', 0, 'orig_rf', 1, 'pca', 7, 'splitMinMax', 10, 'Splitmin_init', 10, 'split_ratio_init', 0.83333, 'Splitmincens_init', 5, 'paramsLowerBound', -3, 'paramsUpperBound', 3, 'hyp_opt_obj', 'mll', 'hyp_opt_algorithm', 'minFunc', 'crossVal_ll_k', 2, 'hyp_opt_numTries', 1, 'trainSubSize', 300, 'ppSize', 300, 'schmeeHahn', -2, 'N_s', 100, 'numLSbest', 10, 'numRandomInEiOpt', 10000, 'onlyOneChallenger', 0, 'hyp_opt_steps', 50, 'evalAllIncumbents', 0, 'evalTimesIncumbents', 1, 'just_valid', 0, 'valid', 0, 'online_crossval', 0, 'matrix_validation', 0, 'writeToScreen', 1, 'experiment_name', 'M_A_SMAC_mixed', 'numRunsToSaveDetails', 2, 'saving', 1, 'workspace_savedir', '.', 'seed', 0, 'offline_validation', 1, 'cutoff_penalty_factor', 10, 'val_filename', 'out/M_A_SMAC_mixed/CPLEX12-MIK-mixed-1s-javarf-logM1eiI2ei0nLS10rR10000iS7ac0rF0.5cs2/overallobjmean10-time1-0.val', 'valall_filename', 'out/M_A_SMAC_mixed/CPLEX12-MIK-mixed-1s-javarf-logM1eiI2ei0nLS10rR10000iS7ac0rF0.5cs2/overallobjmean10-time1-all0.val'
+
+Run 0
+Incumbent at iteration 0: 1 with 10000000000000.000000 +/- 0.000000 and 0 runs. Iteration time: 0.000000, total overhead time: 0.000000, total raw algo runtime: 0.000000, total runs: 0
+0.000000, 10000000000000.000000, 0.000000, 1, 0.000000, barrier_algorithm=0, barrier_crossover=0, barrier_limits_corrections=-1, barrier_limits_growth=999999999999.9990234375000000, barrier_ordering=0, barrier_startalg=1, emphasis_memory=no, emphasis_mip=0, emphasis_numerical=no, feasopt_mode=0, lpmethod=0, mip_cuts_cliques=0, mip_cuts_covers=0, mip_cuts_disjunctive=0, mip_cuts_flowcovers=0, mip_cuts_gomory=0, mip_cuts_gubcovers=0, mip_cuts_implied=0, mip_cuts_mcfcut=0, mip_cuts_mircut=0, mip_cuts_pathcut=0, mip_cuts_zerohalfcut=0, mip_limits_aggforcut=3, mip_limits_cutpasses=0, mip_limits_cutsfactor=4.0000000000000000, mip_limits_gomorycand=200, mip_limits_gomorypass=0, mip_limits_strongcand=10, mip_limits_strongit=0, mip_limits_submipnodelim=500, mip_ordertype=0, mip_strategy_backtrack=0.9999, mip_strategy_bbinterval=7, mip_strategy_branch=0, mip_strategy_dive=0, mip_strategy_file=1, mip_strategy_fpheur=0, mip_strategy_heuristicfreq=0, mip_strategy_lbheur=no, mip_strategy_nodeselect=1, mip_strategy_order=yes, mip_strategy_presolvenode=0, mip_strategy_probe=0, mip_strategy_rinsheur=0, mip_strategy_search=0, mip_strategy_startalgorithm=0, mip_strategy_subalgorithm=0, mip_strategy_variableselect=0, network_netfind=2, network_pricing=0, perturbation_constant=0.0000010000000000, preprocessing_aggregator=-1, preprocessing_boundstrength=-1, preprocessing_coeffreduce=2, preprocessing_dependency=-1, preprocessing_dual=0, preprocessing_fill=10, preprocessing_linear=1, preprocessing_numpass=-1, preprocessing_reduce=3, preprocessing_relax=-1, preprocessing_repeatpresolve=-1, preprocessing_symmetry=-1, read_scale=0, sifting_algorithm=0, simplex_crash=1, simplex_dgradient=0, simplex_limits_perturbation=0, simplex_limits_singularity=10, simplex_perturbation_switch=no, simplex_pgradient=0, simplex_pricing=0, simplex_refactor=0, simplex_tolerances_markowitz=0.0100000000000000
+Doing one run for the default ...
+Challenger 1 --- EI configuration)
+Iteration 0: running config 1 on instance 51 with seed 41590226 and captime 1
+Num try: 1
+File not found.In method /cs/local/generic/lib/pkg/matlab-7.10/toolbox/matlab/iofun/csvread.m at line 40
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/algo_calling/get_single_results.m at line 172
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/algo_calling/get_single_results.m at line 58
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/algo_calling/get_single_results.m at line 16
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/processFunc.m at line 120
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/dorun.m at line 16
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/intensification/intensify_only_instance_blocked.m at line 12
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/intensification/compareChallengersAgainstIncumbent.m at line 31
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/getInitialData.m at line 306
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/smbo.m at line 172
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_runner.m at line 66
+Num try: 2
+File not found.In method /cs/local/generic/lib/pkg/matlab-7.10/toolbox/matlab/iofun/csvread.m at line 40
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/algo_calling/get_single_results.m at line 172
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/algo_calling/get_single_results.m at line 58
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/algo_calling/get_single_results.m at line 16
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/processFunc.m at line 120
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/dorun.m at line 16
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/intensification/intensify_only_instance_blocked.m at line 12
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/intensification/compareChallengersAgainstIncumbent.m at line 31
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/getInitialData.m at line 306
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/smbo.m at line 172
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_runner.m at line 66
+Num try: 3
+File not found.In method /cs/local/generic/lib/pkg/matlab-7.10/toolbox/matlab/iofun/csvread.m at line 40
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/algo_calling/get_single_results.m at line 172
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/algo_calling/get_single_results.m at line 58
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/algo_calling/get_single_results.m at line 16
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/processFunc.m at line 120
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/dorun.m at line 16
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/intensification/intensify_only_instance_blocked.m at line 12
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/intensification/compareChallengersAgainstIncumbent.m at line 31
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/getInitialData.m at line 306
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/smbo.m at line 172
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_runner.m at line 66
+Num try: 4
+File not found.In method /cs/local/generic/lib/pkg/matlab-7.10/toolbox/matlab/iofun/csvread.m at line 40
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/algo_calling/get_single_results.m at line 172
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/algo_calling/get_single_results.m at line 58
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/algo_calling/get_single_results.m at line 16
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/processFunc.m at line 120
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/dorun.m at line 16
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/intensification/intensify_only_instance_blocked.m at line 12
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/intensification/compareChallengersAgainstIncumbent.m at line 31
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/getInitialData.m at line 306
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/smbo.m at line 172
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_runner.m at line 66
+Num try: 5
+File not found.In method /cs/local/generic/lib/pkg/matlab-7.10/toolbox/matlab/iofun/csvread.m at line 40
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/algo_calling/get_single_results.m at line 172
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/algo_calling/get_single_results.m at line 58
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/algo_calling/get_single_results.m at line 16
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/processFunc.m at line 120
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/dorun.m at line 16
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/intensification/intensify_only_instance_blocked.m at line 12
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/intensification/compareChallengersAgainstIncumbent.m at line 31
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/getInitialData.m at line 306
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/smbo.m at line 172
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_runner.m at line 66
+Num try: 6
+File not found.In method /cs/local/generic/lib/pkg/matlab-7.10/toolbox/matlab/iofun/csvread.m at line 40
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/algo_calling/get_single_results.m at line 172
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/algo_calling/get_single_results.m at line 58
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/algo_calling/get_single_results.m at line 16
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/processFunc.m at line 120
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/dorun.m at line 16
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/intensification/intensify_only_instance_blocked.m at line 12
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/intensification/compareChallengersAgainstIncumbent.m at line 31
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/getInitialData.m at line 306
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/smbo.m at line 172
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_runner.m at line 66
+Num try: 7
+File not found.In method /cs/local/generic/lib/pkg/matlab-7.10/toolbox/matlab/iofun/csvread.m at line 40
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/algo_calling/get_single_results.m at line 172
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/algo_calling/get_single_results.m at line 58
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/algo_calling/get_single_results.m at line 16
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/processFunc.m at line 120
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/dorun.m at line 16
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/intensification/intensify_only_instance_blocked.m at line 12
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/intensification/compareChallengersAgainstIncumbent.m at line 31
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/getInitialData.m at line 306
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/smbo.m at line 172
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_runner.m at line 66
+Num try: 8
+File not found.In method /cs/local/generic/lib/pkg/matlab-7.10/toolbox/matlab/iofun/csvread.m at line 40
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/algo_calling/get_single_results.m at line 172
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/algo_calling/get_single_results.m at line 58
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/algo_calling/get_single_results.m at line 16
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/processFunc.m at line 120
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/dorun.m at line 16
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/intensification/intensify_only_instance_blocked.m at line 12
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/intensification/compareChallengersAgainstIncumbent.m at line 31
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/getInitialData.m at line 306
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/smbo.m at line 172
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_runner.m at line 66
+Num try: 9
+File not found.In method /cs/local/generic/lib/pkg/matlab-7.10/toolbox/matlab/iofun/csvread.m at line 40
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/algo_calling/get_single_results.m at line 172
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/algo_calling/get_single_results.m at line 58
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/algo_calling/get_single_results.m at line 16
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/processFunc.m at line 120
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/dorun.m at line 16
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/intensification/intensify_only_instance_blocked.m at line 12
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/intensification/compareChallengersAgainstIncumbent.m at line 31
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/getInitialData.m at line 306
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/smbo.m at line 172
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_runner.m at line 66
+Num try: 10
+File not found.In method /cs/local/generic/lib/pkg/matlab-7.10/toolbox/matlab/iofun/csvread.m at line 40
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/algo_calling/get_single_results.m at line 172
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/algo_calling/get_single_results.m at line 58
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/algo_calling/get_single_results.m at line 16
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/processFunc.m at line 120
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/dorun.m at line 16
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/intensification/intensify_only_instance_blocked.m at line 12
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/intensification/compareChallengersAgainstIncumbent.m at line 31
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/getInitialData.m at line 306
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/smbo.m at line 172
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_runner.m at line 66
+Num try: 11
+File not found.In method /cs/local/generic/lib/pkg/matlab-7.10/toolbox/matlab/iofun/csvread.m at line 40
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/algo_calling/get_single_results.m at line 172
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/algo_calling/get_single_results.m at line 58
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/algo_calling/get_single_results.m at line 16
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/processFunc.m at line 120
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/dorun.m at line 16
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/intensification/intensify_only_instance_blocked.m at line 12
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/intensification/compareChallengersAgainstIncumbent.m at line 31
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/getInitialData.m at line 306
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/smbo.m at line 172
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_runner.m at line 66
+Num try: 12
+File not found.In method /cs/local/generic/lib/pkg/matlab-7.10/toolbox/matlab/iofun/csvread.m at line 40
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/algo_calling/get_single_results.m at line 172
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/algo_calling/get_single_results.m at line 58
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/algo_calling/get_single_results.m at line 16
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/processFunc.m at line 120
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/dorun.m at line 16
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/intensification/intensify_only_instance_blocked.m at line 12
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/intensification/compareChallengersAgainstIncumbent.m at line 31
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/getInitialData.m at line 306
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/smbo.m at line 172
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_runner.m at line 66
+Num try: 13
+File not found.In method /cs/local/generic/lib/pkg/matlab-7.10/toolbox/matlab/iofun/csvread.m at line 40
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/algo_calling/get_single_results.m at line 172
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/algo_calling/get_single_results.m at line 58
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/algo_calling/get_single_results.m at line 16
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/processFunc.m at line 120
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/dorun.m at line 16
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/intensification/intensify_only_instance_blocked.m at line 12
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/intensification/compareChallengersAgainstIncumbent.m at line 31
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/getInitialData.m at line 306
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/smbo.m at line 172
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_runner.m at line 66
+Num try: 14
+File not found.In method /cs/local/generic/lib/pkg/matlab-7.10/toolbox/matlab/iofun/csvread.m at line 40
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/algo_calling/get_single_results.m at line 172
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/algo_calling/get_single_results.m at line 58
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/algo_calling/get_single_results.m at line 16
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/processFunc.m at line 120
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/dorun.m at line 16
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/intensification/intensify_only_instance_blocked.m at line 12
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/intensification/compareChallengersAgainstIncumbent.m at line 31
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/getInitialData.m at line 306
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/smbo.m at line 172
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_runner.m at line 66
+Num try: 15
+File not found.In method /cs/local/generic/lib/pkg/matlab-7.10/toolbox/matlab/iofun/csvread.m at line 40
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/algo_calling/get_single_results.m at line 172
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/algo_calling/get_single_results.m at line 58
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/algo_calling/get_single_results.m at line 16
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/processFunc.m at line 120
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/dorun.m at line 16
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/intensification/intensify_only_instance_blocked.m at line 12
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/intensification/compareChallengersAgainstIncumbent.m at line 31
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/getInitialData.m at line 306
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_core/smbo.m at line 172
+In method /ubc/cs/project/arrow/hutter/altuning/matlab/copy_JS_FastRfLearning/smbo_runner.m at line 66

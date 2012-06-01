@@ -1,0 +1,14 @@
+# For all files, if the first letter is / then it is treated as an absolute path,
+# otherwise it is treated as relative path
+
+# The file rootdir/exec_path/executable must exist
+# Also, rootdir/scripts/al_run_configs_in_file_nodb.rb must exist.
+# rootdir is relative to the directory in which you call smbo_runner
+rootdir = . # /ubc/cs/project/arrow/hutter/experiments/ # default: current working directory
+
+# scenario_path and outdir are relative to rootdir
+scenario_path = scenarios/   #default: rootdir
+outdir = out/                #default: rootdir/out
+
+# tmpdir is relative to outdir
+tmpdir = TMP_FOR_RUNFILES
